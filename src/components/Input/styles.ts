@@ -1,6 +1,7 @@
 import styled, { css } from 'styled-components';
+import { IStyleProps } from './types';
 
-export const Container = styled.div`
+export const Container = styled.div<IStyleProps>`
   display: flex;
   align-items: center;
 

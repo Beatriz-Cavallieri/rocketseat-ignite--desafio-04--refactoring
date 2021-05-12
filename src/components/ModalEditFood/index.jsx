@@ -1,7 +1,7 @@
 import { Component, createRef } from 'react';
 import { FiCheckSquare } from 'react-icons/fi';
 
-import { Form } from './styles';
+import { Form } from './styles.ts';
 import Modal from '../Modal';
 import Input from '../Input';
 
