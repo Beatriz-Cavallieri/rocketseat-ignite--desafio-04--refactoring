@@ -2,10 +2,10 @@ import { useState } from "react";
 import { FiEdit3, FiTrash } from "react-icons/fi";
 
 import { Container } from "./styles";
+import Props from './types'
 import api from "../../services/api";
 
-const Food = (props) => {
-  const { available, food, handleEditFood, handleDelete } = props;
+const Food = ({ available, food, handleEditFood, handleDelete }: Props) => {
 
   const [isAvailable, setIsAvailable] = useState(available);
 
